@@ -1,0 +1,34 @@
+{
+  "name": "react-tiny-carousel",
+  "version": "1.0.1",
+  "description": "A tiny and simple to use React carousel component.",
+  "main": "dist/index.js",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.3"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.js"
+  },
+  "keywords": [
+    "react",
+    "carousel",
+    "tiny",
+    "component",
+    "reactjs"
+  ],
+  "author": "Jacob Willemsma",
+  "license": "ISC",
+  "files": [
+    "dist/index.js",
+    "dist/index.js/map"
+  ]
+}
