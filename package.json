@@ -4,15 +4,14 @@
   "description": "A tiny and simple to use React carousel component.",
   "main": "dist/index.js",
   "dependencies": {
+    "prop-types": "^15.8.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.12.3"
+    "@babel/core": "^7.29.7",
+    "parcel": "^2.16.4"
   },
   "scripts": {
     "start": "parcel index.html",
@@ -29,6 +28,6 @@
   "license": "ISC",
   "files": [
     "dist/index.js",
-    "dist/index.js/map"
+    "dist/index.js.map"
   ]
 }
